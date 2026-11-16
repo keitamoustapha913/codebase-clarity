@@ -1,0 +1,14 @@
+interface:
+  display_name: Codebase Clarity
+  short_description: Simplify codebases with safe, tested cleanups
+  default_prompt: Use $codebase-clarity to explore this codebase and simplify it in
+    small, tested batches.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
